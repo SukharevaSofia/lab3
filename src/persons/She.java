@@ -5,6 +5,12 @@ public class She extends Person{
     public She(String name) {
         super(name);
     }
+
+    @Override
+    public boolean equals(He s) {
+        return false;
+    }
+
     public String getSat(){
         return "уселась" + " ";
     }

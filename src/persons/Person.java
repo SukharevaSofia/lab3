@@ -10,4 +10,6 @@ abstract class Person{
     public String getName() {
         return name;
     }
+
+    public abstract boolean equals(He s);
 }

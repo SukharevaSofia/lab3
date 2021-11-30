@@ -1,10 +1,7 @@
 package com.company;
 
 import persons.Misa;
-import sentences.First_sentence;
-import sentences.Fourth_sentence;
-import sentences.Second_sentence;
-import sentences.Third_sentence;
+import sentences.*;
 
 public class Main {
 
@@ -15,7 +12,12 @@ public class Main {
         Second_sentence second = new Second_sentence();
         Third_sentence third = new Third_sentence();
         Fourth_sentence fourth = new Fourth_sentence();
-        story.append(first).append(second).append(third).append(fourth);
+        Fifth_sentence fifth = new Fifth_sentence();
+        Sixth_sentence sixth = new Sixth_sentence();
+        Seventh_sentence seventh = new Seventh_sentence();
+
+
+        story.append(first).append(second).append(third).append(fourth).append(fifth).append(sixth).append(seventh);
         System.out.println(story);
     }
 

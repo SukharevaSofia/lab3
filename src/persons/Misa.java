@@ -6,6 +6,11 @@ public class Misa extends Person {
         super(name);
     }
 
+    @Override
+    public boolean equals(He s) {
+        return false;
+    }
+
     public String Dress_up(){
         return "оделась";
     }
@@ -16,15 +21,5 @@ public class Misa extends Person {
     }
 
 
-    @Override
-    public boolean equals(Object obj) {
-        if (obj == this) {
-            return true;
-        }
-        if (obj == null || obj.getClass() != this.getClass()) {
-            return false;
-        }
-        return false;
-    }
 
 }
