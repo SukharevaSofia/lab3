@@ -9,7 +9,7 @@ public class He extends Person{
         return "попытался представить ";
     }
     public String watch(){
-        return  "осмотрел ";
+        return  "осмотрел";
     }
     public String found() {
         return "обнаружил";
