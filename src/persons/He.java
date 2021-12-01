@@ -25,11 +25,8 @@ public class He extends Person{
 
     @Override
     public boolean equals(He s) {
-        if (s == this) {
+        if (s.getName().equals(this.getName())) {
             return true;
-        }
-        if (s == null || s.getName() != this.getName()) {
-            return false;
         }
         return false;
     }
