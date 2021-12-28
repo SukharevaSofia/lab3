@@ -1,15 +1,24 @@
 package sentences;
 
+import nouns.AllThis;
+import persons.Freken;
+import persons.Mumys;
 import service_classes.CheckedException;
+import service_classes.Sml_wrds;
 import service_classes.UncheckedException;
 
 public class One_sentence extends Sentence{
 
-    boolean isEmpty;
+    AllThis allThis = new AllThis();
+    Freken freken = new Freken(" фрекен Снорк");
+    Mumys mumys = new Mumys();
+    Mumys.Troll troll= mumys.new Troll();
+
     @Override
     public String getSentence() {
         StringBuilder s = new StringBuilder();
-        s.append("");
+        s.append(allThis.whle()).append(allThis.getText()).append(allThis.happened()).append(Sml_wrds.WITH.getWrd());
+        s.append(troll).append(Sml_wrds.AND.getWrd()).append(freken).append(Sml_wrds.COMMA.getWrd());
         return String.valueOf(s);
 
     }

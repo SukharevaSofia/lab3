@@ -10,7 +10,8 @@ public enum Sml_wrds {
     WHOM("себе"),
     COMMA(", "),
     COLON(": "),
-    BUT("Но");
+    BUT("Но"),
+    WITH("c");
 
     private String s;
     Sml_wrds(String s) {
