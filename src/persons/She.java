@@ -15,7 +15,7 @@ public class She extends Person{
         return "уселась" + " ";
     }
     public String cryHard(){return " горько плакала";}
-    public String repeat(){return " беспрестанно повторяла";}
+    public String repeat(){return "беспрестанно повторяла";}
     public String sitting(){return "Сидя в качалке";}
     @Override
     public String toString(){
