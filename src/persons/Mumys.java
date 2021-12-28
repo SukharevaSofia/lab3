@@ -13,16 +13,16 @@ public class Mumys{
         }
     }
 
-    class Mom implements Word_text{
+    public class Mom implements Word_text{
         public String getText(){return "Муми-мама";}
-        public String touch(){return "не притрагивалась к еде";}
+        public String touch(){return " не притрагивалась к еде";}
         @Override
         public String toString(){
             return getText();
         }
     }
 
-    class Dad implements Word_text{
+    public class Dad implements Word_text{
         public String getText(){return "Муми-папа ";}
         public String sad(){return "печально уставился ";}
         public String toString(){
