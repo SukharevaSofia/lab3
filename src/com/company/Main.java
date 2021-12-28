@@ -2,6 +2,7 @@ package com.company;
 
 import sentences.*;
 import service_classes.CheckedException;
+import service_classes.UncheckedException;
 
 public class Main {
 
@@ -27,6 +28,11 @@ public class Main {
         try {
             one.cheking(one);
         } catch (CheckedException e) {
+            e.printStackTrace();
+        }
+        try {
+            one.uncheking(one);
+        } catch (UncheckedException e){
             e.printStackTrace();
         }
 

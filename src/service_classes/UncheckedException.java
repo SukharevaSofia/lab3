@@ -1,5 +1,8 @@
 package service_classes;
 
-public class UncheckedException extends Exception{
+public class UncheckedException extends RuntimeException{
 
+    public UncheckedException(String message){
+        super(message);
+    }
 }

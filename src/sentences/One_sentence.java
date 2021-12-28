@@ -1,6 +1,7 @@
 package sentences;
 
 import service_classes.CheckedException;
+import service_classes.UncheckedException;
 
 public class One_sentence extends Sentence{
 
@@ -8,7 +9,7 @@ public class One_sentence extends Sentence{
     @Override
     public String getSentence() {
         StringBuilder s = new StringBuilder();
-        s.append(" .");
+        s.append("");
         return String.valueOf(s);
 
     }
@@ -18,6 +19,9 @@ public class One_sentence extends Sentence{
     }
     public void cheking(One_sentence sentence) throws CheckedException{
         if ((String.valueOf(sentence).contains(".") == false)) throw new CheckedException("Ой! Первое предложение без точки!");
+    }
+    public void uncheking(One_sentence sentence) throws UncheckedException{
+        if (String.valueOf(sentence).contains(("@"))) throw new UncheckedException("Какие-то страхи!");
     }
 
 
