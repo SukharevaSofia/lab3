@@ -2,7 +2,7 @@ package sentences;
 
 import nouns.Coda;
 import nouns.Hatch;
-import ιnterfaces_and_enums.Sml_wrds;
+import service_classes.Sml_wrds;
 
 public class Sixth_sentence extends Sentence{
 

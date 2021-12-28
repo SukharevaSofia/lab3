@@ -1,6 +1,6 @@
 package nouns;
 
-import ιnterfaces_and_enums.Word_text;
+import service_classes.Word_text;
 
 public class Roof implements Word_text {
     public String getText() {

@@ -6,7 +6,7 @@ import nouns.Hall;
 import nouns.Hole;
 import nouns.Roof;
 import persons.He;
-import ιnterfaces_and_enums.Sml_wrds;
+import service_classes.Sml_wrds;
 
 public class Fourth_sentence extends Sentence{
 

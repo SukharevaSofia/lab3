@@ -3,7 +3,7 @@ package sentences;
 
 import nouns.Misfortune;
 import persons.He;
-import ιnterfaces_and_enums.Sml_wrds;
+import service_classes.Sml_wrds;
 
 public class Third_sentence extends Sentence{
     He he = new He("Он");

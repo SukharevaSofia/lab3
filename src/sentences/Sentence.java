@@ -1,6 +1,6 @@
 package sentences;
 
-import ιnterfaces_and_enums.Sentence_text;
+import service_classes.Sentence_text;
 
 abstract class Sentence implements Sentence_text {
     public String getSentence() {

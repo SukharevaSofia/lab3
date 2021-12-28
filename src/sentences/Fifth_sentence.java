@@ -3,7 +3,7 @@ package sentences;
 import nouns.Hatch;
 import nouns.Only_thing;
 import persons.He;
-import ιnterfaces_and_enums.Sml_wrds;
+import service_classes.Sml_wrds;
 
 public class Fifth_sentence extends Sentence{
 

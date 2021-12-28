@@ -1,7 +1,7 @@
 package sentences;
 
 import persons.He;
-import ιnterfaces_and_enums.Sml_wrds;
+import service_classes.Sml_wrds;
 
 public class Seventh_sentence extends Sentence{
 

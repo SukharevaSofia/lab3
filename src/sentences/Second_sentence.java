@@ -2,7 +2,7 @@ package sentences;
 
 import nouns.Corner;
 import persons.She;
-import ιnterfaces_and_enums.Sml_wrds;
+import service_classes.Sml_wrds;
 
 public class Second_sentence extends Sentence{
     She she = new She("Она");

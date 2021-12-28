@@ -2,7 +2,7 @@ package sentences;
 
 import nouns.Mouring;
 import persons.Misa;
-import ιnterfaces_and_enums.Sml_wrds;
+import service_classes.Sml_wrds;
 
 public class First_sentence extends Sentence{
     Misa misa = new Misa("Миса");
