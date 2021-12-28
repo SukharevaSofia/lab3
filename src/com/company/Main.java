@@ -1,6 +1,7 @@
 package com.company;
 
 import sentences.*;
+import service_classes.CheckedException;
 
 public class Main {
 
@@ -18,10 +19,16 @@ public class Main {
         Fifth_sentence fifth = new Fifth_sentence();
         Sixth_sentence sixth = new Sixth_sentence();
         Seventh_sentence seventh = new Seventh_sentence();
+
         story.append(one).append(two).append(three);
         story.append(first).append(second).append(third).append(fourth).append(fifth).append(sixth).append(seventh);
 
         System.out.println(story);
+        try {
+            one.cheking(one);
+        } catch (CheckedException e) {
+            e.printStackTrace();
+        }
 
     }
 
