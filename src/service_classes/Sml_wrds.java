@@ -11,6 +11,7 @@ public enum Sml_wrds {
     COMMA(", "),
     COLON(": "),
     BUT("Но"),
+    SMALL_BUT("но"),
     WITH("c"),
     AT("на"),
     ONLY("Только ");

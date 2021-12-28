@@ -28,7 +28,7 @@ public class Main {
         story.append(one).append(two).append("\n").append(three);
         story.append(first).append(second).append("\n").append(third).append(fourth).append(fifth).append("\n").append(sixth).append(seventh);
 
-        story.append("\n").append(last).append(later).append(lastest);
+        story.append("\n").append(last).append(later).append("\n").append(lastest);
 
         System.out.println(story);
         try {
