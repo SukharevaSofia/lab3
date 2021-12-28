@@ -1,14 +1,14 @@
 package sentences;
 
 import nouns.Hatch;
-import nouns.Only_thing;
+import nouns.OnlyThing;
 import persons.He;
 import service_classes.Sml_wrds;
 
 public class Fifth_sentence extends Sentence{
 
     He he = new He("он");
-    Only_thing only_thing = new Only_thing();
+    OnlyThing only_thing = new OnlyThing();
     Hatch hatch = new Hatch();
     @Override
     public String getSentence() {

@@ -21,8 +21,14 @@ public class Main {
         Sixth_sentence sixth = new Sixth_sentence();
         Seventh_sentence seventh = new Seventh_sentence();
 
+        Last_sentence last = new Last_sentence();
+        Later_sentence later = new Later_sentence();
+        Lastest_sentence lastest = new Lastest_sentence();
+
         story.append(one).append(two).append("\n").append(three);
         story.append(first).append(second).append("\n").append(third).append(fourth).append(fifth).append("\n").append(sixth).append(seventh);
+
+        story.append("\n").append(last).append(later).append(lastest);
 
         System.out.println(story);
         try {

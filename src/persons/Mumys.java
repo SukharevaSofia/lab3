@@ -16,7 +16,6 @@ public class Mumys{
     public class Mom implements Word_text{
         public String getText(){return "Муми-мама";}
         public String touch(){return " не притрагивалась к еде";}
-        @Override
         public String toString(){
             return getText();
         }
@@ -25,9 +24,7 @@ public class Mumys{
     public class Dad implements Word_text{
         public String getText(){return "Муми-папа ";}
         public String sad(){return "печально уставился ";}
-        public String toString(){
-            return getText();
-        }
+        public String toString(){return getText();}
     }
 
 }
