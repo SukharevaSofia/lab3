@@ -1,4 +1,4 @@
-package ιnterfaces_and_enums;
+package service_classes;
 
 public interface Word_text {
     public String getText();

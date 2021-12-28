@@ -1,4 +1,4 @@
-package ιnterfaces_and_enums;
+package service_classes;
 
 public enum Sml_wrds {
     IN("в"),
@@ -8,7 +8,9 @@ public enum Sml_wrds {
     THIS("это"),
     DOT(". "),
     WHOM("себе"),
-    COMMA(", ");
+    COMMA(", "),
+    COLON(": "),
+    BUT("Но");
 
     private String s;
     Sml_wrds(String s) {
