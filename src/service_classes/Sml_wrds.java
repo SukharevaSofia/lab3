@@ -12,7 +12,8 @@ public enum Sml_wrds {
     COLON(": "),
     BUT("Но"),
     WITH("c"),
-    AT("на");
+    AT("на"),
+    ONLY("Только ");
 
     private String s;
     Sml_wrds(String s) {
